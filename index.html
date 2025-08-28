@@ -9,28 +9,111 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Dreamhouse GmbH</title>
   </head>
-  <body>
-    <div class="container w-auto m-auto border">
-      <nav class="border">Ich bin die Navigation</nav>
-      <header class="border">Ich bin der HEADER</header>
-      <main class="border">
-        <section class="border">We Help You To Find Your Dream Home</section>
-        <section class="border">Why Choose Us</section>
-        <section class="border">Our Popular Residences</section>
-        <section class="border">What People Say About Dwello</section>
-        <section class="border">
-          <p style="font-family: Poppins">
-            Do You Have Any Questions? Get Help From Us
+  <body class="text-gray-800">
+    <div class="container mx-auto px-8 py-6">
+      <!--Navigation-->
+      <nav class="flex justify-between items-center">
+        <div>
+          <img src="img/dwello-logo.svg" alt="Dwello Logo" class="h-8 w-auto" />
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#" class="hover:text-gray-500">Startseite</a>
+          <a href="#" class="hover:text-gray-500">Service</a>
+          <a href="#" class="hover:text-gray-500">Makler</a>
+          <a href="#" class="hover:text-gray-500">Kontakt</a>
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#" class="hover:text-gray-500">
+            <img src="img/suche.svg" />
+          </a>
+          <a href="#" class="hover:text-gray-500">
+            <img src="img/user.svg" />
+          </a>
+          <a href="#" class="custom-brown px-6 py-2 rounded-lg">Registrieren</a>
+        </div>
+        <div class="md:hidden">
+          <button
+            class="text-gray-800 hover:text-gray-500 focus:outline-none"
+          ></button>
+        </div>
+      </nav>
+
+      <!--Header/Hero Section-->
+      <header class="mt-0.5 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 text-center md:text-left">
+          <h1 class="hero-title text-5xl md:text-7xl font-bold leading-tight">
+            Finden Sie Ihr Traumhaus
+          </h1>
+          <p class="mt-6 text-lg text-gray-600">
+            Entdecken Sie unsere kuratierte Auswahl an exquisiten Immobilien,
+            die sorgfältig auf Ihre einzigartige Traumhausvision zugeschnitten
+            sind.
           </p>
-          <i class="fas fa-user h-5"></i>
-        </section>
-      </main>
-      <footer class="border">Ich bin der Footer</footer>
+          <a
+            href="#"
+            class="custom-brown mt-8 inline-block px-10 py-4 rounded-lg"
+            >Registrieren</a
+          >
+        </div>
+        <div class="md:w-1/2 mt-12 md:mt-0">
+          <img
+            src="img/hero image 1.png"
+            alt="Modernes Haus"
+            class="w-full h-auto"
+          />
+        </div>
+      </header>
+
+      <!--Suchfilter-->
+      <div class="mt-0">
+        <div class="filter-bg p-16 rounded-xl shadow-lg">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
+            <!-- Standort -->
+            <div
+              class="bg-orange-100 p-3 rounded-lg flex justify-between items-center"
+            >
+              <input
+                type="text"
+                placeholder="Standort"
+                class="w-full focus:outline-none bg-transparent"
+              />
+              <img src="img/suchfilter.svg" />
+            </div>
+            <!-- Typ -->
+            <div
+              class="bg-orange-100 p-3 rounded-lg flex justify-between items-center"
+            >
+              <input
+                type="text"
+                placeholder="Typ"
+                class="w-full focus:outline-none bg-transparent"
+              />
+              <img src="img/suchfilter2.svg" />
+            </div>
+            <!-- Preisspanne -->
+            <div
+              class="bg-orange-100 p-3 rounded-lg flex justify-between items-center"
+            >
+              <input
+                type="text"
+                placeholder="Preisspanne"
+                class="w-full focus:outline-none bg-transparent"
+              />
+              <img src="img/suchfilter3.svg" />
+            </div>
+            <!-- Button -->
+            <button class="custom-brown p-3 rounded-lg w-full h-full">
+              Registrieren
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
