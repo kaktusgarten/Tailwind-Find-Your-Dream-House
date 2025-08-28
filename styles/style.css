@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Montserrat";
+  background-color: #fcf8f4;
+}
+
+.custom-brown {
+  background-color: #4f3f36;
+  color: white;
+}
+.custom-brown:hover {
+  background-color: #2b1b12;
+}
+
+.hero-title {
+  color: #3a2e28;
+}
+
+.filter-bg {
+  background: #ddc7bb;
+}
+
+.filter-icon-color {
+  color: #8d7b72;
+}
