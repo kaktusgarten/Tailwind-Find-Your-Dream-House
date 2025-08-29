@@ -18,7 +18,7 @@
   <body>
     <div class="container w-auto m-auto border font-[Roboto]">
       <!--Navigation-->
-      <nav class="flex justify-between items-center">
+      <nav class="flex justify-between items-center px-20 py-10">
         <div>
           <img src="img/dwello-logo.svg" alt="Dwello Logo" class="h-8 w-auto" />
         </div>
@@ -44,7 +44,7 @@
         </div>
       </nav>
       <!--Header/Hero Section-->
-      <header class="mt-0.5 flex flex-col md:flex-row items-center">
+      <header class="mt-0.5 flex flex-col md:flex-row items-center px-20 pb-10">
         <div class="md:w-1/2 text-center md:text-left">
           <h1 class="hero-title text-5xl md:text-7xl font-bold leading-tight">
             Finden Sie Ihr Traumhaus
@@ -69,7 +69,7 @@
         </div>
       </header>
       <!--Suchfilter-->
-      <div class="mt-0">
+      <div class="mt-0 xl:px-40 md:px-10 px-5">
         <div class="filter-bg p-16 rounded-xl shadow-lg">
           <div class="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
             <!-- Standort -->
@@ -288,7 +288,118 @@
           </div>
         </section>
 
-        <section class="border">What People Say About Dwello</section>
+        <!-- SECTION - What people Say.. -->
+        <section
+          class="pt-20 pb-2 px-5 xl:px-20 lg:px-10 flex flex-col items-center bg-[#ebe1db]"
+        >
+          <h2 class="text-4xl font-bold mb-10 text-center">
+            What People Say<br />
+            About Dwello
+          </h2>
+
+          <div
+            class="grid xl:grid-cols-3 md:grid-cols-2 xl:gap-15 gap-5 w-[100%]"
+          >
+            <!-- 1. Card -->
+            <section class="CARD border rounded-2xl bg-[#DDC7BB] flex flex-col">
+              <img
+                src="img/what-people-say-1.png"
+                alt="What people say"
+                class="rounded-t-2xl"
+              />
+
+              <div class="WRAPPER p-5 font-medium">
+                <div class="flex justify-between items-center">
+                  <img src="img/People1.png" alt="Person" />
+                  <div class="mb-2">
+                    <h3 class="text-xl">San Francisco, Californien</h3>
+                    <p>San Francisco</p>
+                  </div>
+                  <div class="bg-white px-3">* 5.0</div>
+                </div>
+
+                <div class="flex">
+                  Dwello truly cares about their clients. They listened to my
+                  needs and preferences and helped me find the perfect home in
+                  the Bay Area. Their professionalism and attention to detail
+                  are unmatched.
+                </div>
+              </div>
+            </section>
+
+            <!-- 2. Card -->
+            <section class="CARD border rounded-2xl bg-[#DDC7BB] flex flex-col">
+              <img
+                src="img/what-people-say-1.png"
+                alt="What people say"
+                class="rounded-t-2xl"
+              />
+
+              <div class="WRAPPER p-5 font-medium">
+                <div class="flex justify-between items-center">
+                  <img src="img/People1.png" alt="Person" />
+                  <div class="mb-2">
+                    <h3 class="text-xl">San Francisco, Californien</h3>
+                    <p>San Francisco</p>
+                  </div>
+                  <div class="bg-white px-3">* 5.0</div>
+                </div>
+
+                <div class="flex">
+                  Dwello truly cares about their clients. They listened to my
+                  needs and preferences and helped me find the perfect home in
+                  the Bay Area. Their professionalism and attention to detail
+                  are unmatched.
+                </div>
+              </div>
+            </section>
+
+            <!-- 3. Card -->
+            <section class="CARD border rounded-2xl bg-[#DDC7BB] flex flex-col">
+              <img
+                src="img/what-people-say-1.png"
+                alt="What people say"
+                class="rounded-t-2xl"
+              />
+
+              <div class="WRAPPER p-5 font-medium">
+                <div class="flex justify-between items-center">
+                  <img src="img/People1.png" alt="Person" />
+                  <div class="mb-2">
+                    <h3 class="text-xl">San Francisco, Californien</h3>
+                    <p>San Francisco</p>
+                  </div>
+                  <div class="bg-white px-3">* 5.0</div>
+                </div>
+
+                <div class="flex">
+                  Dwello truly cares about their clients. They listened to my
+                  needs and preferences and helped me find the perfect home in
+                  the Bay Area. Their professionalism and attention to detail
+                  are unmatched.
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex py-10">
+            <!-- BUTTON ZURÜCK -->
+            <button
+              class="border rounded-3xl width-[100px] h-[50px] w-[50px] inline-block bg-black text-white mx-4 cursor-pointer"
+              onclick="alert('Klick')"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <!-- BUTTON VOR-->
+            <button
+              class="border rounded-3xl width-[100px] h-[50px] w-[50px] inline-block bg-black text-white mx-4 cursor-pointer"
+              onclick="alert('Klick')"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </section>
 
         <section class="border">
           <p style="font-family: Poppins">
