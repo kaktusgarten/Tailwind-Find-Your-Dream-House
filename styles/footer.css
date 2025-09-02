@@ -1,0 +1,30 @@
+/* Custom CSS for additional styling */
+.footer-bg {
+  background: #ddc7bb;
+}
+
+.text-dark-gray {
+  color: #4a4a4a;
+}
+
+.text-darker-gray {
+  color: #2d2d2d;
+}
+
+/* Logo image styling */
+.logo-image {
+  width: 120px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+/* Social media icons styling */
+.social-icon {
+  width: 20px;
+  height: 20px;
+  background-color: #4a4a4a;
+  border-radius: 2px;
+  margin-right: 8px;
+  display: inline-block;
+}
