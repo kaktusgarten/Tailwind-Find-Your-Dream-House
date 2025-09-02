@@ -3,8 +3,22 @@
 body {
   font-family: "Montserrat";
   background-color: #fcf8f4;
+   --residences-color: #ddc7bb;
 }
-
+/* setting first primary colors as variable */
+:root {
+  --text-color: #2b1b12;
+  --input-color: #e2c5bb;
+  --footer-color: #e2c5bb;
+  --secondary-color: #ddc7bb;
+  --residences-color: #ddc7bb;
+  --background-color: #fef7f2;
+  --button-color: #2b1b12;
+  --third-color: #543e32;
+  --shadow-color: #362820;
+  --subtitle-color: #4f3527;
+  --paragraph-color: #4f3527;
+}
 .custom-brown {
   background-color: #4f3f36;
   color: white;
